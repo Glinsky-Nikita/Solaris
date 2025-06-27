@@ -1,0 +1,30 @@
+.authorizedContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: calc(100vh - 70px);
+  padding: 20px;
+}
+
+.content {
+  background: #1a1a1a;
+  padding: 40px;
+  border-radius: 10px;
+  box-shadow: 0px 14px 39px -11px rgb(96, 1, 137);
+  text-align: center;
+  color: #fff;
+}
+
+.logoutButton {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  background-color: #4f0170;
+  color: white;
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+.logoutButton:hover {
+  background-color: #6a0199;
+}

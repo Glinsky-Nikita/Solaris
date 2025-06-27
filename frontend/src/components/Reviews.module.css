@@ -1,0 +1,94 @@
+.reviewsContainer {
+  width: 80%;
+  margin: 40px auto;
+  color: #fff;
+}
+
+.title {
+  font-size: 40px;
+  font-weight: 500;
+  text-transform: uppercase;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.reviewsList {
+  margin-bottom: 40px;
+  max-height: calc(100vh - 300px);
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+
+.review {
+  background: #1a1a1a;
+  padding: 20px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  border-left: 5px solid #4f0170;
+}
+
+.reviewText {
+  font-style: italic;
+  margin-bottom: 10px;
+}
+
+.reviewAuthor {
+  text-align: right;
+  font-weight: bold;
+}
+
+.reviewForm {
+  background: #1a1a1a;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.reviewNamearea{
+  width: 96%;
+  height: 20px;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #444;
+  background: #2a2a2a;
+  color: #fff;
+  resize: vertical;
+  margin-bottom: 10px;
+}
+
+.reviewTextarea {
+  width: 96%;
+  height: 100px;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #444;
+  background: #2a2a2a;
+  color: #fff;
+  resize: vertical;
+  margin-bottom: 10px;
+}
+
+.submitButton {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  background-color: #4f0170;
+  color: white;
+  cursor: pointer;
+}
+
+.submitButton:hover {
+  background-color: #6a0199;
+}
+
+.noReviews {
+  text-align: center;
+  font-size: 18px;
+  color: #888;
+  padding: 40px 0;
+}
+
+.loginPrompt {
+  text-align: center;
+  font-size: 16px;
+  color: #ccc;
+}

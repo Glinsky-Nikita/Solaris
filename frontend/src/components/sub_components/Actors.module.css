@@ -1,0 +1,154 @@
+.ActorContainer {
+  width: 80%;
+  margin: 0 auto;
+  margin-left: auto;
+  margin-top: 20px;
+}
+.highlight {
+  color: var(--primary-color);
+  font-weight: 700;
+}
+.title {
+  font-family: Inter, sans-serif;
+  font-size: 40px;
+  font-weight: 500;
+  line-height: 120%;
+  text-transform: uppercase;
+  text-align: left;
+  margin-bottom: 20px;
+}
+.grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+  width: 100%;
+}
+.card {
+  position: relative;
+  width: 300px;
+  height: 500px;
+  border-radius: 10px;
+  box-shadow: 0px 14px 39px -11px rgb(96, 1, 137);
+  margin-right: 20px;
+  border: 2px solid white;
+}
+.image {
+  border-radius: 10px 10px 0 0;
+  height: 200px;
+  width: 280px;
+  object-fit: cover;
+  display: block;
+  margin: 0 auto;
+}
+.Name {
+  position: absolute;
+  width: 282px;
+  height: 42px;
+  left: 14px;
+  right: 8px;
+  top: 284px;
+  font-family: Inter, sans-serif;
+  font-size: 24px;
+  line-height: 130%;
+  text-align: left;
+}
+
+.role {
+  position: absolute;
+  width: 74px;
+  height: 22px;
+  color: rgba(177, 137, 240, 0.741);
+  font-family: Inter, sans-serif;
+  font-size: 18px;
+  font-weight: 300;
+  text-align: left;
+  top: 358px;
+  left: 14px;
+}
+.roleName {
+  position: absolute;
+  color: rgb(255, 255, 255);
+  font-family: Inter, sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+  text-align: left;
+  top: 0px;
+  left: 50px;
+}
+.fact {
+  position: absolute;
+  color: rgba(177, 137, 240, 0.741);
+  font-family: Inter, sans-serif;
+  font-size: 18px;
+  font-weight: 300;
+  text-align: left;
+  top: 388px;
+  left: 14px;
+  right: 14px;
+}
+.factName {
+  color: rgb(255, 255, 255);
+  font-family: Inter, sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  margin-left: 6px;
+}
+.button {
+  font-size: 14px;
+  font-weight: bold;
+  background-color: #4f0170;
+  color: white;
+  width: 260px;
+  height: 60px;
+  margin: 0 auto;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.button:hover {
+  background-color: #120120;
+}
+
+
+
+@media (max-width: 768px) {
+  .ActorContainer {
+    width: 80%;
+    padding: 0 15px;
+    margin-left: 0px;
+    overflow: visible;
+ }
+  .title {
+    position: relative;
+    width: auto;
+    height: auto;
+    margin-top: 20px;
+    margin-left: 8px;
+    margin-right: 47px;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 120%;
+    text-align: left;
+    text-transform: uppercase;
+ }
+  .grid {
+    display: flex;
+    overflow-x: scroll;
+    scroll-snap-type: x mandatory;
+    width: 100%;
+    padding: 30px;
+ }
+  .grid::-webkit-scrollbar {
+    width: 0;
+ }
+ .card {
+  scroll-snap-align: center;
+  width: 280px;
+  height: 500px; 
+  margin-right: 20px; 
+}
+  .productDescription {
+    width: 250px;
+ }
+}

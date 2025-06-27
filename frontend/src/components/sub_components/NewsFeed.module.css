@@ -1,0 +1,33 @@
+.newsFeed {
+    width: 100%;
+    padding: 20px 0;
+    position: relative;
+  }
+  
+  .separator {
+    width: 100%;
+    height: 2px; 
+    background-color: #fff; 
+    margin: 20px 0; 
+  }
+  
+  .heading {
+    font-size: 24px;
+    text-align: center;
+    margin-bottom: 20px;
+    color: #ffffff;
+  }
+  
+  .videoWrapper {
+    width: 100%;
+    overflow: hidden;
+  }
+  
+  .video {
+    width: 100%;
+    height: auto; 
+    display: block;
+    box-shadow: 0px 14px 39px -11px rgba(79, 79, 79, 0.25);
+    pointer-events: auto; 
+  }
+  

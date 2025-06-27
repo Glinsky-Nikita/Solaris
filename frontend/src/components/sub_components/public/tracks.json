@@ -1,0 +1,45 @@
+[
+    {
+      "id": 1,
+      "title": "Крис",
+      "author": "Иван Никулин",
+      "image": "/songs/kris.png",
+      "audio": "/songs/kris.mp3"
+    },
+    {
+      "id": 2,
+      "title": "Зеркала Воспоминаний",
+      "author": "Иван Никулин",
+      "image": "/songs/zerkala.jpg",
+      "audio": "/songs/zerkala.mp3"
+    },
+    {
+      "id": 3,
+      "title": "Первая встреча",
+      "author": "Иван Никулин",
+      "image": "/songs/vstrecha.png",
+      "audio": "/songs/vstrecha.mp3"
+    },
+    {
+      "id": 1,
+      "title": "Солярис",
+      "author": "Иван Никулин",
+      "image": "/songs/solaris.jpg",
+      "audio": "/songs/solaris.mp3"
+    },
+    {
+      "id": 1,
+      "title": "Хари",
+      "author": "Иван Никулин",
+      "image": "/songs/hari.jpg",
+      "audio": "/songs/hari.mp3"
+    },
+    {
+      "id": 1,
+      "title": "Гибарян",
+      "author": "Иван Никулин",
+      "image": "/songs/gibaryan.jpg",
+      "audio": "/songs/gibaryan.mp3"
+    }
+  ]
+  
